@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/purple_500"
+        android:layout_marginTop="180dp">
+
+        <ImageView
+            android:id="@+id/I1"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginBottom="33dp"
+            android:background="@color/purple_700"
+
+            android:foregroundGravity="center_horizontal"
+            app:layout_constraintBottom_toBottomOf="@id/I4"
+            app:layout_constraintEnd_toStartOf="@+id/I2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/btn_dialog" />
+
+        <ImageView
+            android:id="@+id/I2"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginBottom="33dp"
+            android:background="@color/purple_700"
+            android:foregroundGravity="center_horizontal"
+            app:layout_constraintBottom_toBottomOf="@id/I5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/btn_dialog" />
+
+        <ImageView
+            android:id="@+id/I3"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginBottom="33dp"
+            android:background="@color/purple_700"
+            android:foregroundGravity="center_horizontal"
+
+            app:layout_constraintBottom_toBottomOf="@id/I6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/I2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/btn_dialog" />
+
+        <ImageView
+            android:id="@+id/I4"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@color/purple_700"
+            android:foregroundGravity="center_vertical|center|center_horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+
+            app:layout_constraintEnd_toStartOf="@+id/I5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/btn_dialog" />
+
+        <ImageView
+            android:id="@+id/I5"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@color/purple_700"
+            android:foregroundGravity="center_vertical|center_horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/btn_dialog" />
+
+        <ImageView
+            android:id="@+id/I6"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@color/purple_700"
+            android:foregroundGravity="center_horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintStart_toEndOf="@+id/I5"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/btn_dialog" />
+
+        <ImageView
+            android:id="@+id/I7"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="33dp"
+            android:background="@color/purple_700"
+
+            android:foregroundGravity="center_horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/I8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/I4"
+            app:srcCompat="@android:drawable/btn_dialog" />
+
+        <ImageView
+            android:id="@+id/I8"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="33dp"
+            android:background="@color/purple_700"
+            android:foregroundGravity="center_horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/I5"
+            app:srcCompat="@android:drawable/btn_dialog" />
+
+        <ImageView
+            android:id="@+id/I9"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="33dp"
+            android:background="@color/purple_700"
+            android:foregroundGravity="center_horizontal"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/I8"
+            app:layout_constraintTop_toTopOf="@id/I6"
+            app:srcCompat="@android:drawable/btn_dialog" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
